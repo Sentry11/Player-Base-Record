@@ -1,0 +1,10 @@
+.app-info{
+    padding: 25px;
+    background-color:cadetblue;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgb(0, 0, 0, .15px);
+    color: #fff;
+}
+.h1{
+ text-align: center;
+}
