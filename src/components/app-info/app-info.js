@@ -1,10 +1,7 @@
-
 import "./app-info.css";
 
 const AppInfo = ({numOfteammate, increaseTeammate}) => {
-
-    
-    return(
+  return(
         <div className="app-info">
             <h1 style = {{textAlign : "center"}}> Состав команды по волейболу  </h1>
 
