@@ -1,32 +1,14 @@
-
-
 import "./VolleyballPlayer-list-item.css";
-
-
 const VolleyballPlayerListItem = (props,{data}, onSalaryChange) =>  {
   
-
-
-
-    onSalaryChange = (e) => { 
-        
-        // data.map(item => {
-        //     return{...item, salary: e.target.value} 
-        //    })
-        console.log(e.target.value)
-        return  (e.target.value)
-        
-         
+    onSalaryChange = (e) => {
+        return  (e.target.value) 
     }
-  
-    
-    
-
+ 
     const {name,salary,onDelete, onToggleProp, increase, promotion} = props;
-    
-
     let classNames = "list-group-item d-flex justify-content-between";
 
+  
     if (increase){
         classNames +=' increase';
     }
