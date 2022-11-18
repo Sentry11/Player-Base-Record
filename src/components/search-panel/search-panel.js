@@ -16,10 +16,6 @@ class SearchPanel extends Component {
         this.props.onUpdateSearch(term)
     }
 
-
-
-
-
     render() {
         return (
             <input type="text"
@@ -31,27 +27,6 @@ class SearchPanel extends Component {
     }
 }
 
-
  export default SearchPanel;
 
-//  wtf   
-//        |
-//        |
-//        |
-//       \ /
-//        V
-
-
-
-// render() {
-//     return (
-//         <input 
-//               type="text"
-//               className="form-control search-input"
-//               placeholder="Search employeers"
-//               value = {this.state.term} 
-//               onChange ={this.OnUpdateSearch}/>
-//            )
-//         }
-// }
 
