@@ -1,13 +1,9 @@
 import { Component } from "react";
-
 import "./VolleyballPlayer-add-form.css";
-
 
 class VolleyballPlayerAddForm extends Component{
         constructor(props){
-
                 super(props);
-
                 this.state = {
                    name: '',
                    salary: ''
@@ -20,7 +16,6 @@ class VolleyballPlayerAddForm extends Component{
                }) 
         } 
 
-
         onSubmit = (e) => {
                 e.preventDefault();
                 if (this.state.name.length < 3 || !this.state.salary) return;
@@ -30,7 +25,6 @@ class VolleyballPlayerAddForm extends Component{
                         salary:''
                 })
         }
-
 
     render() {
         const {name, salary} = this.state;
